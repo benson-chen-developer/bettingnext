@@ -100,7 +100,6 @@ export const ValPlayer = () => {
     
         /* Check to see if every game is loaded */
         const updatedGames = updatedAllGames(allGames, newGames);
-        // console.log(updatedGames)
         const allGamesFound = updatedGames.every((game: ValorantGame) => game.players.length > 0);
         setAllGamesLoaded(allGamesFound);
 

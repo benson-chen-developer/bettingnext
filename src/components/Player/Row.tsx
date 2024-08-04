@@ -23,7 +23,6 @@ const formatDate = (dateString: string): string => {
   Displayed stats is the box score essentially. It should be an array so we can just loop through it
 */
 export const Row:React.FC<Props> = ({displayedStats, pickedBtn, chartCompareTo, team, date}) => {
-
     /* The player stats array is seperated into many portions and each number is the selected portion */
     
     return (
